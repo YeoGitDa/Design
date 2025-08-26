@@ -4,7 +4,7 @@
 1. ✨ 컬러 팔레트 (CI)
 아래 색상들을 '여백'의 공식 색으로 사용합니다.
 
-<img src="./assets/yeobaek-color-palette.jpg" width="400" alt="여백 컬러 팔레트"/>
+![여백 컬러 팔레트](YeoGitDa/Mgmt/Images/KakaoTalk_20250826_100611854.jpg)
 
 #3A8C75
 
