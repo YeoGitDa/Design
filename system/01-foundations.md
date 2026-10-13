@@ -46,6 +46,7 @@
 |---|---|---|---|---|
 | `logo` | Montserrat | 18 / 24 | Bold | YEOBAEK 워드마크 전용 |
 | `label` | Montserrat | 12 / 16 | Bold | 영문 대문자 · 자간 0.14em |
+| `hero` | Pretendard | 48 / 48 (폰 36 / 40) | Bold | 첫 화면 제목만 — 홈 「Yeobaek Web」 · 모집 홈 「Fill the Margin…」. 자간 −0.025em |
 | `title` | Pretendard | 36 / 40 (폰 30 / 36) | Bold | 자간 −0.025em |
 | `card-title` | Pretendard | 18 / 28 | Bold | |
 | `body` | Pretendard | 14 / 23 | Regular | |
@@ -54,7 +55,7 @@
 
 - Montserrat 는 한글이 없음 → 한글 제목에 쓰지 않음
 - Inter 는 따로 쓰지 않음 (Pretendard 영문이 Inter 기반)
-- 48px 이상 금지 — ❓ 홈 첫 화면만 예외로 할지 미정
+- 48px 초과 금지. 48 은 첫 화면 제목(`hero`)만 — 모집 홈 크기 기준 (2026-10-13 결정)
 
 ```html
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
