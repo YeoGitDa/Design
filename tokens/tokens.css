@@ -1,0 +1,47 @@
+/* 여백 디자인 토큰 — tokens.json 과 같은 값 */
+:root {
+  /* CI */
+  --yb-leaf: #3A8C75;      /* 큰 제목·장식만 — 흰 바탕 작은 글자 금지 */
+  --yb-forest: #31594E;    /* 버튼·링크·라벨 */
+  --yb-deep: #09402C;
+  --yb-night: #0A261C;
+  --yb-ink: #0D0D0D;
+  --yb-leaf-6: #F3F8F7;
+  --yb-leaf-12: #E7F1EE;
+  --yb-leaf-24: #D0E3DE;
+  --yb-gray-600: #475569;
+  --yb-gray-500: #64748B;
+  --yb-gray-200: #E2E8F0;
+  --yb-bg: #F8FAFC;
+  --yb-white: #FFFFFF;
+  --yb-danger: #DC2626;    /* 오류 전용 */
+
+  /* 의미 */
+  --yb-text-heading: var(--yb-ink);
+  --yb-text-body: var(--yb-gray-600);
+  --yb-text-muted: var(--yb-gray-500);
+  --yb-text-accent: var(--yb-forest);
+  --yb-text-on-accent: var(--yb-white);
+  --yb-surface-page: var(--yb-bg);
+  --yb-surface-card: var(--yb-white);
+  --yb-surface-accent-soft: var(--yb-leaf-12);
+  --yb-surface-section-alt: var(--yb-leaf-6);
+  --yb-surface-dark: var(--yb-night);
+  --yb-border-default: var(--yb-gray-200);
+  --yb-border-accent: var(--yb-forest);
+  --yb-border-focus: var(--yb-leaf);
+  --yb-button-primary-bg: var(--yb-forest);
+  --yb-button-primary-bg-hover: var(--yb-deep);
+  --yb-button-primary-bg-pressed: var(--yb-night);
+  --yb-button-secondary-bg-hover: var(--yb-leaf-12);
+
+  /* 모양 */
+  --yb-radius-card: 16px;
+  --yb-radius-pill: 9999px;
+  --yb-shadow-rest: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --yb-shadow-hover: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+
+  /* 글꼴 */
+  --yb-font-base: 'Pretendard Variable', Pretendard, -apple-system, system-ui, sans-serif;
+  --yb-font-brand: 'Montserrat', 'Pretendard Variable', sans-serif;
+}
