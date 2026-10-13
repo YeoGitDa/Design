@@ -29,13 +29,22 @@
 ### 캐릭터 색 (곰)
 머스터드는 **곰 그림 안에서만** 씁니다. 버튼·글자·띠에는 쓰지 않습니다. ❓값 실측 후 기입
 
-## 2. 글꼴 — Pretendard
-| 단계 | 굵기 | PPT | 웹 |
+## 2. 글꼴 — Pretendard + Montserrat
+| 단계 | 글꼴 · 굵기 | PPT | 웹 |
 |---|---|---|---|
-| 제목 | Black(900) — 웹은 Bold(700) | 32pt↑ | 30~36px |
-| 소제목 | SemiBold(600) | 20pt | 18px |
-| 본문 | Regular(400) | 12~14pt | 14~16px |
-| 라벨 | Bold(700) · 영문 대문자 | 10pt | 12px |
+| 로고 (YEOBAEK) | Montserrat Bold | — | 18px |
+| 제목 | Pretendard Black(900) — 웹은 Bold(700) | 32pt↑ | 30~36px |
+| 소제목 | Pretendard SemiBold(600) | 20pt | 18px |
+| 본문 | Pretendard Regular(400) | 12~14pt | 14~16px |
+| 라벨 (영문 대문자) | Montserrat Bold | 10pt | 12px |
+
+- Montserrat 는 한글이 없음 → **로고·영문 라벨에만**. 한글 제목에 쓰지 않음
+- Inter 는 따로 쓰지 않음 (Pretendard 영문이 Inter 기반)
+- 웹 자간 -0.01em
+
+## 2-1. 아이콘
+- **Lucide** 한 세트 (ISC 라이선스, 웹은 `lucide-react`) · 선 2px · 크기 16/20/24 · 색은 글자색을 따름
+- 이모지·다른 아이콘 세트를 섞지 않음. Instagram·GitHub 등 브랜드 로고는 각 회사 공식 로고를 단색으로
 
 ## 3. 모양
 - 둥근 직사각형 — 모서리 16px (PPT 는 도형 크기 대비 ❓)
@@ -43,10 +52,15 @@
 - 투명도 93% — ❓대상 확인 후 기입
 - 그림자는 아주 옅게 하나만
 
-## 4. 캐릭터 (곰)
+## 4. 캐릭터 (곰) · 그림
+- 그림 비율: 카드 16:10 · 아바타 1:1(원형) · 홈 첫 화면 21:9 (곰은 왼쪽 아래)
+- 같은 줄에 스크린샷·3D·다이어그램을 섞지 않음
 - 3D 클레이 톤 · 흰/아이보리 바탕
 - 곰 원본: Web_page `public/backend/image/` (gomdol.jpg · mascot_chatbot.png)
 - 소품(헤드셋·모자 등)은 자유, 몸 색·얼굴 모양은 바꾸지 않음
 
 ## 5. 로고
 ❓ 공식 파일 · 최소 크기 · 여백 규정
+
+## 피그마
+색·글꼴·부품 원본: 「여백 디자인 시스템」 Figma 파일 (Variables · 부품 · 페이지 틀)
